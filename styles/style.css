@@ -18,17 +18,57 @@ body{
     background-color:  var(--clr-purple-100);
 }
 header{
-    height: 36vh;
+    height: 30vh;
     background:  var(--clr-purple-950);
     background:  url(../images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    padding-top: 10rem;
 }
-
-
-
-
+.faq{
+    background-color: var(--clr-white);
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    color: var(--clr-purple-950);
+    border-radius: 8px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 2rem;
+}
+.icon-star{
+    width: 2rem;
+    height: 2rem;
+}
+h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.question-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.question-tag{
+    font-weight:  600;
+}
+.question-title img{
+    margin-left: 3rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.answer{
+    padding-top: 1.4rem;
+    padding-bottom: 2.4rem;
+    font-size: .97rem;
+    color:  var(--clr-purple-600);
+    line-height: 1.4;
+}
 
 
 
