@@ -9,6 +9,10 @@
     padding:0;
     box-sizing:border-box;
 }
+::selection{
+    background-color: var(--clr-purple-950);
+    color:  var(--clr-purple-100);
+}
 html{
     font-size: 16px;
 }
@@ -25,11 +29,12 @@ header{
     background-size: cover;
     background-position: center;
 
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 .faq{
     background-color: var(--clr-white);
     width: 90%;
+    max-width:  600px;
     margin: 0 auto;
     padding: 1rem;
     color: var(--clr-purple-950);
@@ -49,6 +54,10 @@ h1{
     font-size: 2.4rem;
     font-weight: 700;
 }
+.question{
+
+    overflow: hidden;
+}
 .question-title{
     display: flex;
     align-items: center;
@@ -56,11 +65,16 @@ h1{
 }
 .question-tag{
     font-weight:  600;
+    cursor: pointer;
+}
+.question-tag:hover{
+    color:  var(--clr-purple-600);
 }
 .question-title img{
     margin-left: 3rem;
     width: 1.8rem;
     height: 1.8rem;
+    cursor: pointer;
 }
 .answer{
     padding-top: 1.4rem;
